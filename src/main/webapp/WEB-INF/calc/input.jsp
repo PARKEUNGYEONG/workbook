@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<form action="calcResult.jsp" method="post"><!--form이라는 양식을 어디에(action) 어떻게(method)-->
+<form action="/calc/makeResult" method="post"><!--form이라는 양식을 어디에(action) 어떻게(method)-->
     <input type="number" name="num1">
     <input type="number" name="num2">
     <button type="submit">SEND</button>
