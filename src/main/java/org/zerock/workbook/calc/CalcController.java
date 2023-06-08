@@ -17,5 +17,8 @@ public class CalcController extends HttpServlet {
         System.out.printf("num1: %s", num1);
         System.out.printf("num2: %s", num2);
 
+        resp.sendRedirect("/index");
+        //브라우저는 응답 헤더에 "Location"이 포함되면 브라우저의 주소창을 변경하고 해당 주소를 get방식으로 호출하게 된다.
+
     }
 }
